@@ -1,0 +1,18 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+httpx==0.27.0
+pydantic==2.7.1
+python-multipart==0.0.9
+
+# Speech-to-text (local Whisper)
+#openai-whisper==20231117
+
+# Audio analysis
+librosa==0.10.1
+soundfile==0.12.1
+numpy==1.26.4
+
+# Required by whisper
+torch
+torchaudio
+ffmpeg-python
